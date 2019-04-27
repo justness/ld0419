@@ -270,7 +270,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ocean: {fileID: 1232693869}
-  death: {fileID: 0}
+  death: {fileID: 225823968}
 --- !u!54 &50073401
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -17,17 +17,36 @@ public class MineTrigger : MonoBehaviour
 
     void Update()
     {
+        if (StaticStats.getPois() == true)      //Check for poison status per tick and updates health.
+        {
+            StaticStats.setLife(StaticStats.getLife() - 0.1);
+            Debug.Log("Health = " + StaticStats.getLife());
+        }
+
+        if (StaticStats.getLife() <= 0)
+        {
+            SceneManager.LoadScene("Death");
+        }
     }
 
     private void OnTriggerEnter(Collider col)
     {
         if (col.gameObject == mine)
         {
-            //this.health -= -10;                 //Health should be a global int preserved across scenes. Air and hunger should be reset per scene. Speed slow-down from plastic rings should be preserved aross scenes.
+            StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
+            Debug.Log("Health = " + StaticStats.getLife());
         }
         if (col.gameObject == poison)
         {
-            //this.health -= -0.5 * Time.deltaTime;       //Check if this successfully deals DoT.
+            StaticStats.setPois(true);      //Sets poison to true when colliding.
+        }
+    }
+
+    private void OnTriggerExit (Collider col)
+    {
+        if (col.gameObject == poison)       //Disables poison when too far.
+        {
+            StaticStats.setPois(false);
         }
     }
 }

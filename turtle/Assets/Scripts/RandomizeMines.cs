@@ -10,7 +10,7 @@ public class RandomizeMines : MonoBehaviour
     void Start()
     {
         mine = GameObject.Find("Mine");
-        int rand = Random.Range(20,30);
+        int rand = Random.Range(30,40);
         int i = 0;
         while (i <= rand)
         {

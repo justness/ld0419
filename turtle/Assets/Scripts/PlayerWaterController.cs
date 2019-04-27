@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class PlayerWaterController : MonoBehaviour
 {
     public CharacterController _controller;
     public float _speed = 10;
@@ -10,19 +10,15 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 rotation;
 
-    /*void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }*/
-    //This playercontroller is for the initial land-section. Can update parts to reuse for final scene. Other scenes better with new player object.
-
     public void Update()
     {
         this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
 
-        Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);    //Update for underwater (actual vertical movement).
+        Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
         this.transform.Rotate(this.rotation);
+
+        //Add dash + hit to life.
     }
 }
