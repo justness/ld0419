@@ -12,6 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Juvenile.unity
     guid: dc29f507c99e26b439e0515a29d609e9
   - enabled: 1
+    path: Assets/Scenes/Mate.unity
+    guid: b7afcbb9ec149434b98a03bb694584a8
+  - enabled: 1
+    path: Assets/Scenes/Survive.unity
+    guid: 5350379baa8be7c42b2c289787f0cf10
+  - enabled: 1
+    path: Assets/Scenes/Return.unity
+    guid: 13638658f10de404798d5b8a88a8d67b
+  - enabled: 1
     path: Assets/Scenes/Death.unity
     guid: 655653f0349e0ff43bb2976dd7fc0927
   m_configObjects: {}

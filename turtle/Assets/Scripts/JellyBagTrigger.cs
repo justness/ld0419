@@ -1,11 +1,12 @@
-﻿using System.Collections;
+﻿
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class JellyBagTrigger : MonoBehaviour
 {
-
     public GameObject jelly;
     public GameObject bag;
 
@@ -17,21 +18,22 @@ public class JellyBagTrigger : MonoBehaviour
 
     void Update()
     {
-        /*if (hunger >= 0)
+        if (StaticStats.getHunger() <= 0)
         {
-            health -= 5 * Time.deltaTime;   //Lose health per tick while starving.
-        }*/
+            StaticStats.setLife(StaticStats.getLife() - 2);
+        }
+        StaticStats.setHunger(StaticStats.getHunger() - 0.5);
     }
 
     private void OnTriggerEnter(Collider col)
     {
         if (col.gameObject == jelly)
         {
-            //hunger += 10;
+            StaticStats.setHunger(StaticStats.getHunger() + 10);
         }
         if (col.gameObject == bag)
         {
-            //hunger -= 10;
+            StaticStats.setHunger(StaticStats.getHunger() - 10);
         }
     }
 }

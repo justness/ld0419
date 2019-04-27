@@ -20,7 +20,6 @@ public class MineTrigger : MonoBehaviour
         if (StaticStats.getPois() == true)      //Check for poison status per tick and updates health.
         {
             StaticStats.setLife(StaticStats.getLife() - 0.1);
-            Debug.Log("Health = " + StaticStats.getLife());
         }
 
         if (StaticStats.getLife() <= 0)
@@ -34,7 +33,6 @@ public class MineTrigger : MonoBehaviour
         if (col.gameObject == mine)
         {
             StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
-            Debug.Log("Health = " + StaticStats.getLife());
         }
         if (col.gameObject == poison)
         {
