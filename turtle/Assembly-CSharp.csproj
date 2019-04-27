@@ -74,6 +74,7 @@
     <Compile Include="Assets\Scripts\RandomizeJelly.cs" />
     <Compile Include="Assets\Scripts\RandomizeMines.cs" />
     <Compile Include="Assets\Scripts\RandomizePlastic.cs" />
+    <Compile Include="Assets\Scripts\RotationOfModel.cs" />
     <Compile Include="Assets\Scripts\StaticStats.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/thoma/OneDrive/Winter 2019/Turtle/ld0419/turtle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

@@ -19,4 +19,25 @@ public class CameraController : MonoBehaviour
         transform.position = player.transform.position + offset; //follow player
         transform.rotation = player.transform.rotation * rotOffset;
     }
+
+    /*void Update()
+    {
+        if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.W))
+        {
+            //goUpAndDown();
+            //move.y = 1000; //this didn't work
+            Quaternion target = Quaternion.Euler(-45, 0, 0);
+            transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime);
+
+        }
+
+        if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.S))
+        {
+            //goUpAndDown();
+            //move.y = 1000; //this didn't work
+            Quaternion target = Quaternion.Euler(45, 0, 0);
+            transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime);
+
+        }
+    }*/
 }
