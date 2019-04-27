@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\OceanTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/thoma/OneDrive/Winter 2019/Turtle/ld0419/turtle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
