@@ -7,6 +7,7 @@ public class PlayerWaterController : MonoBehaviour
     public CharacterController _controller;
     public float _speed = 10;
     public float _rotationSpeed = 180;
+    public float upAndDownSpeed = 7;
     Vector3 moveUp;
     public Rigidbody turtleRigidbody;
 
@@ -24,7 +25,7 @@ public class PlayerWaterController : MonoBehaviour
         Debug.Log("goUpAndDown");
         Vector3 goUp = new Vector3(0, Input.GetAxisRaw("Vertical") * Time.deltaTime, 0);
         goUp = this.transform.TransformDirection(goUp);
-        _controller.Move(goUp * 100);
+        _controller.Move(goUp * upAndDownSpeed);
     }
 
     public void FixedUpdate()
