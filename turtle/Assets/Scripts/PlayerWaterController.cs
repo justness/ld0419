@@ -50,11 +50,28 @@ public class PlayerWaterController : MonoBehaviour
         _controller.Move(move * _speed);
         this.transform.Rotate(this.rotation);
 
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.W))
         {
             goUpAndDown();
             //move.y = 1000; //this didn't work
-            
+            //Quaternion target = Quaternion.Euler(-45, 0, 0);
+            //transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime);
+            Vector3 stayInPlaceW = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
+            stayInPlaceW = this.transform.TransformDirection(stayInPlaceW);
+            _controller.Move(stayInPlaceW * _speed * -1);
+
+        }
+
+        if (Input.GetKey(KeyCode.Space) && Input.GetKey(KeyCode.S))
+        {
+            goUpAndDown();
+            //move.y = 1000; //this didn't work
+            //Quaternion target = Quaternion.Euler(45, 0, 0);
+            //transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime);
+            Vector3 stayInPlaceW = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
+            stayInPlaceW = this.transform.TransformDirection(stayInPlaceW);
+            _controller.Move(stayInPlaceW * _speed * -1);
+
         }
 
         if (Input.GetKey(KeyCode.LeftShift))
