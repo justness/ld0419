@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -8,11 +10,13 @@ public class MineTrigger : MonoBehaviour
 
     public GameObject mine;
     public GameObject poison;
+    public AudioSource explosion;
 
     void Start()
     {
         mine = GameObject.Find("Mine");
         poison = GameObject.Find("Poison");
+        explosion = mine.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -33,6 +37,7 @@ public class MineTrigger : MonoBehaviour
         if (col.gameObject == mine)
         {
             StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
+            explosion.Play();
         }
         if (col.gameObject == poison)
         {
