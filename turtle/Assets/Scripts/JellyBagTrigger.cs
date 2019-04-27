@@ -1,5 +1,6 @@
 ﻿
 
+//deals with passive hunger and drain, and colisions with jellyfish (+hunger) and plastic bags (-health)
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,14 +17,19 @@ public class JellyBagTrigger : MonoBehaviour
         bag = GameObject.Find("PlasticBag");
     }
 
-    void Update()
-    {
+   void FixedUpdate() //using FixedUpdate for non-movement related items
+   {
         if (StaticStats.getHunger() <= 0)
         {
             StaticStats.setLife(StaticStats.getLife() - 2);
         }
-        StaticStats.setHunger(StaticStats.getHunger() - 0.5);
-    }
+
+        StaticStats.setHunger(StaticStats.getHunger() - 0.5); //passive hunger drain
+
+        Debug.Log(StaticStats.getLife());
+
+        StaticStats.setLife(StaticStats.getLife() - 0.125); //passive life drain
+   }
 
     private void OnTriggerEnter(Collider col)
     {
@@ -33,7 +39,7 @@ public class JellyBagTrigger : MonoBehaviour
         }
         if (col.gameObject == bag)
         {
-            StaticStats.setHunger(StaticStats.getHunger() - 10);
+            StaticStats.setLife(StaticStats.getLife() - 10);
         }
     }
 }

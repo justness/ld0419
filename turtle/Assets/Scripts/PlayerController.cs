@@ -24,5 +24,15 @@ public class PlayerController : MonoBehaviour
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
         this.transform.Rotate(this.rotation);
+
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _speed = 30;
+            //Action item: this should also remove health
+        }
+        else
+        {
+            _speed = 10;
+        }   
     }
 }

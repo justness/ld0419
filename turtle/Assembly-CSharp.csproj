@@ -63,8 +63,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\JellyBagTrigger.cs" />
+    <Compile Include="Assets\Scripts\MineTrigger.cs" />
     <Compile Include="Assets\Scripts\OceanTrigger.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\PlayerWaterController.cs" />
+    <Compile Include="Assets\Scripts\RandomizeCricket.cs" />
+    <Compile Include="Assets\Scripts\RandomizeGrass.cs" />
+    <Compile Include="Assets\Scripts\RandomizeJelly.cs" />
+    <Compile Include="Assets\Scripts\RandomizeMines.cs" />
+    <Compile Include="Assets\Scripts\RandomizePlastic.cs" />
+    <Compile Include="Assets\Scripts\StaticStats.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/thoma/OneDrive/Winter 2019/Turtle/ld0419/turtle/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
