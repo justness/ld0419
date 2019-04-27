@@ -550,6 +550,7 @@ MonoBehaviour:
   _controller: {fileID: 1224070002}
   _speed: 10
   _rotationSpeed: 180
+  turtleRigidbody: {fileID: 0}
 --- !u!114 &1224070009
 MonoBehaviour:
   m_ObjectHideFlags: 0

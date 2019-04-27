@@ -2,7 +2,7 @@
 {
     private static double life = 1000;
     private static double air = 100;
-    private static double hunger = 100;
+    private static double hunger = 99999;
     private static bool plasticRing = false;
     private static bool poisoned = false;
 
