@@ -1,8 +1,8 @@
 ﻿public static class StaticStats
 {
     private static double life = 1000;
-    private static int air = 0;
-    private static int hunger = 0;
+    private static double air = 100;
+    private static double hunger = 100;
     private static bool plasticRing = false;
     private static bool poisoned = false;
 
@@ -15,20 +15,20 @@
         life = value;
     }
 
-    public static int getAir()
+    public static double getAir()
     {
         return air;
     }
-    public static void setAir(int value)
+    public static void setAir(double value)
     {
         air = value;
     }
 
-    public static int getHunger()
+    public static double getHunger()
     {
         return hunger;
     }
-    public static void setHunger(int value)
+    public static void setHunger(double value)
     {
         hunger = value;
     }
