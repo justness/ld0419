@@ -938,8 +938,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8cb132e9c4424a24e940de7acbf87268, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rt: {fileID: 0}
-  height: 0
+  rt: {fileID: 561592702}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,6 +1065,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crick: {fileID: 726116471}
   grass: {fileID: 49198543}
+  min: 2
+  max: 4
 --- !u!82 &726116473
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1688,6 +1689,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   crick: {fileID: 726116471}
+  min: 20
+  max: 25
 --- !u!1 &1120060857
 GameObject:
   m_ObjectHideFlags: 0

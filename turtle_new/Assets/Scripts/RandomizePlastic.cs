@@ -6,11 +6,13 @@ public class RandomizePlastic : MonoBehaviour
 {
 
     public GameObject plastic;
+    public int min;
+    public int max;
 
     void Start()
     {
         plastic = GameObject.Find("Plastic");
-        int rand = Random.Range(30, 40);
+        int rand = Random.Range(min, max);
         int i = 0;
         while (i <= rand)
         {

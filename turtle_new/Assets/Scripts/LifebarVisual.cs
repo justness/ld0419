@@ -6,7 +6,6 @@ public class LifebarVisual : MonoBehaviour
 {
 
     public RectTransform rt;
-    public double height;
 
     void Start()
     {
@@ -16,7 +15,7 @@ public class LifebarVisual : MonoBehaviour
     void Update()
     {
         rt.sizeDelta = new Vector2(5, 250 * ((float)StaticStats.getLife() / 1000));
-        StaticStats.setLife(StaticStats.getLife() - 20);                 //WE NEED TO HAVE A CONSISTENT SCRIPT REDUCING/MANAGING STATS
+        //StaticStats.setLife(StaticStats.getLife() - 20);                 //WE NEED TO HAVE A CONSISTENT SCRIPT REDUCING/MANAGING STATS
 
         if ((StaticStats.getLife() / 1000) <= 0.2)
         {
