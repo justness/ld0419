@@ -6,7 +6,7 @@ public class PlayerWaterController : MonoBehaviour
 {
     public CharacterController _controller;
     public float _speed = 10;
-    public float _rotationSpeed = 180;
+    public float _rotationSpeed = 0;
     public float upAndDownSpeed = 7;
     Vector3 moveUp;
     public Rigidbody turtleRigidbody;
@@ -14,6 +14,13 @@ public class PlayerWaterController : MonoBehaviour
     private Vector3 rotation;
 
     public Vector3 rightStickVector;
+
+    [SerializeField]
+    float eulerAngX;
+    [SerializeField]
+    float eulerAngY;
+    [SerializeField]
+    float eulerAngZ;
 
     public void RemoveHealth()
     {
@@ -29,6 +36,16 @@ public class PlayerWaterController : MonoBehaviour
             //transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime);
             //transform.eulerAngles= Vector3.Scale(transform.position, fixZRotation); //wayy too janky
         }
+    }
+
+    private static float UnwrapAngle(float angle)
+    {
+        if (angle >= 0)
+            return angle;
+
+        angle = -angle % 360;
+
+        return 360 - angle;
     }
 
     public void setControllerDeadzone()
@@ -91,6 +108,19 @@ public class PlayerWaterController : MonoBehaviour
         }
     }
 
+    public double boundAngleX(double angleX)
+    {
+        if (angleX > 25 && angleX < 50) {
+            //angleX = 25;
+            transform.localEulerAngles += new Vector3(-3, 0f, 0f);
+        }
+        if (angleX < 340 && angleX > 290) {
+            //angleX = -25;
+            transform.localEulerAngles += new Vector3(3, 0f, 0f);
+        }
+        return angleX;
+    }
+
     public void FixedUpdate()
     {
         if (Input.GetKey(KeyCode.LeftShift))
@@ -104,17 +134,35 @@ public class PlayerWaterController : MonoBehaviour
         turtleRigidbody = GetComponent<Rigidbody>();
     }
 
+
     public void Update()
     {
-        rotation = new Vector3(0, Input.GetAxis("RightStickHorizontal") * _rotationSpeed, 0);
+
+        float rSHorizontal = Input.GetAxisRaw("RightStickHorizontal"); // set as your inputs 
+        float rSVertical = Input.GetAxis("RightStickVertical");
+        rotation = new Vector3(0, (rSHorizontal * _rotationSpeed), 0);
         Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
-        transform.Rotate(rotation);
+        Debug.Log(rSHorizontal);
+        Debug.Log(_rotationSpeed);
+        //transform.Rotate(rotation);
+        transform.localEulerAngles += new Vector3(rSVertical * 20, rSHorizontal * 180, 0f);
 
         //LookWithRightStick();
         //setZToZero();
-        //setControllerDeadzone();
+        //setControllerDeadzone(); //this gives different behavior on diffierent controllers, can reset later but using unity's built in deadzone tool for now
+
+        eulerAngX = transform.localEulerAngles.x;
+        Debug.Log("eulerAngX:");
+        Debug.Log(eulerAngX);
+        double eulerAngXUnwrapped = UnwrapAngle(eulerAngX);
+        //Debug.Log("eulerAngX unwrapped");
+       // Debug.Log(eulerAngXUnwrapped);
+        eulerAngY = transform.localEulerAngles.y;
+        eulerAngZ = transform.localEulerAngles.z;
+
+        boundAngleX(eulerAngX);
 
         if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.JoystickButton5))
         {
