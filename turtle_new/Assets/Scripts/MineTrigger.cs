@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MineTrigger : MonoBehaviour
 {
@@ -9,12 +10,14 @@ public class MineTrigger : MonoBehaviour
     public GameObject mine;
     public GameObject poison;
     public AudioSource aud;
+    public RawImage img;
 
     void Start()
     {
         mine = GameObject.Find("Mine");
-        poison = GameObject.Find("Poison");
+        poison = mine.gameObject.transform.GetChild(0).gameObject;
         aud = mine.GetComponent<AudioSource>();
+        img.enabled = false;
     }
 
     void Update()
@@ -32,14 +35,16 @@ public class MineTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
+        if (col.gameObject == poison)
+        {
+            img.enabled = true;
+            Debug.Log("Collision");
+            StaticStats.setPois(true);      //Sets poison to true when colliding.
+        }
         if (col.gameObject == mine)
         {
             StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
             aud.Play();
-        }
-        if (col.gameObject == poison)
-        {
-            StaticStats.setPois(true);      //Sets poison to true when colliding.
         }
     }
 
@@ -48,6 +53,7 @@ public class MineTrigger : MonoBehaviour
         if (col.gameObject == poison)       //Disables poison when too far.
         {
             StaticStats.setPois(false);
+            img.enabled = false;
         }
     }
 }
