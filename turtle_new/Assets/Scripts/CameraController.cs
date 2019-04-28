@@ -1,6 +1,8 @@
-﻿using System.Collections;
+﻿
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour
 {
@@ -18,6 +20,11 @@ public class CameraController : MonoBehaviour
     {
         transform.position = player.transform.position + offset; //follow player
         transform.rotation = player.transform.rotation * rotOffset;
+
+        if (StaticStats.getLife() <= 0)
+        {
+            SceneManager.LoadScene("Death");
+        }
     }
 
     /*void Update()

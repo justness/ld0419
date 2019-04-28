@@ -627,7 +627,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rt: {fileID: 0}
-  height: 0
 --- !u!114 &650645212
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,6 +1107,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jelly: {fileID: 877181034}
+  min: 40
+  max: 45
 --- !u!114 &1286779710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,6 +1122,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   plastic: {fileID: 25663417}
+  min: 55
+  max: 60
 --- !u!4 &1286779711
 Transform:
   m_ObjectHideFlags: 0
