@@ -17,6 +17,14 @@
 
     public static double getAir()
     {
+        if (air > 100)
+        {
+            air = 100;
+        }
+        if (air <= 0)
+        {
+            life = 0;
+        }
         return air;
     }
     public static void setAir(double value)
