@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/Water FX Particles/Scene/Water Fx Particles.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
