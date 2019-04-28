@@ -16,8 +16,23 @@ public class CameraController : MonoBehaviour
 
     void LateUpdate()
     {
-        transform.position = player.transform.position + offset; //follow player
+        transform.position = player.transform.position + offset;
         transform.rotation = player.transform.rotation * rotOffset;
+
+        /*// Camera Movement //an example script to play with, I didn't make this one
+        Vector3 movement = CameraGoalPosition - transform.position;
+        movement = movement / MovementDividor;
+        transform.position += movement;
+
+        // Camera Look At
+        vector3 movementA = CameraGoalLookAt - CameraCurrentLookAt;
+        movementA = movementA / LookAtDividor;
+        CameraCurrentLookAt += movementA;
+        transform.lookat(CameraCurrentLookAt);*/
+
+        //transform.position = player.transform.position + offset; //follow player
+        //transform.rotation = player.transform.rotation * rotOffset; //having issues with right stick
+        //transform.rotation = player.transform.rotation;
     }
 
     /*void Update()

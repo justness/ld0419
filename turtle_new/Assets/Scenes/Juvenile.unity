@@ -332,6 +332,7 @@ MonoBehaviour:
   _rotationSpeed: 180
   upAndDownSpeed: 7
   turtleRigidbody: {fileID: 0}
+  rightStickVector: {x: 0, y: 0, z: 0}
 --- !u!54 &389424103
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5937,6 +5938,7 @@ MonoBehaviour:
   _rotationSpeed: 180
   upAndDownSpeed: 7
   turtleRigidbody: {fileID: 0}
+  rightStickVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1224070009
 MonoBehaviour:
   m_ObjectHideFlags: 0

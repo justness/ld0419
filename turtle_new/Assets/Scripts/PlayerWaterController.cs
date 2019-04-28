@@ -13,11 +13,64 @@ public class PlayerWaterController : MonoBehaviour
 
     private Vector3 rotation;
 
+    public Vector3 rightStickVector;
+
     public void RemoveHealth()
     {
         StaticStats.setLife(StaticStats.getLife() - 0.5);
     }
-    
+
+    public void setZToZero()
+    {
+        if (transform.rotation.z > 0)
+        {
+            //Vector3 fixZRotation = new Vector3(0, 0, 1);
+            //Quaternion target = Quaternion.Euler(0, 0, 90);
+            //transform.rotation = Quaternion.Slerp(transform.rotation, target, Time.deltaTime);
+            //transform.eulerAngles= Vector3.Scale(transform.position, fixZRotation); //wayy too janky
+        }
+    }
+
+    public void setControllerDeadzone()
+    {
+        float deadzone = 0.25f;
+        Vector2 stickInput = new Vector2(Input.GetAxis("RightStickHorizontal"), Input.GetAxis("RightStickVertical"));
+        if(stickInput.magnitude<deadzone)
+        stickInput = Vector2.zero;
+    }
+
+    /*public void LookWithRightStick()
+    {
+        float rSHorizontal = Input.GetAxis("RightStickHorizontal"); // set as your inputs 
+        float rSVertical = Input.GetAxis("RightStickVertical");
+
+        rightStickVector = new Vector3(rSVertical * 180, rSHorizontal * 180, 0f);
+
+        transform.Rotate(rightStickVector);
+
+        //transform.localEulerAngles += new Vector3(rSVertical * 180, rSHorizontal * 180, 0f); // this does the actual rotaion according to inputs
+
+        /*if (rSHorizontal == 0f && rSVertical == 0f)
+        { // this statement allows it to recenter once the inputs are at zero 
+            Vector3 curRot = transform.localEulerAngles; // the object you are rotating
+            Vector3 homeRot;
+            if (curRot.y > 180f)
+            { // this section determines the direction it returns home 
+                Debug.Log(curRot.y);
+                homeRot = new Vector3(0f, 359.999f, 0f); //it doesnt return to perfect zero 
+            }
+            else
+            {                                                                      // otherwise it rotates wrong direction 
+                homeRot = Vector3.zero;
+            }
+            transform.localEulerAngles = Vector3.Slerp(curRot, homeRot, Time.deltaTime * 2);
+        }
+        else
+        {
+            
+        }*/
+    //}
+
     public void goUpAndDown(int upOrDown) //this is tied to w and s keys due to the "_controller.Move"
     {
         //Vector3 goUpAndDown = new Vector3(0, 2f, 0);
@@ -53,12 +106,15 @@ public class PlayerWaterController : MonoBehaviour
 
     public void Update()
     {
-        this.rotation = new Vector3(0, Input.GetAxisRaw("Horizontal") * _rotationSpeed * Time.deltaTime, 0);
-
+        rotation = new Vector3(0, Input.GetAxis("RightStickHorizontal") * _rotationSpeed, 0);
         Vector3 move = new Vector3(0, 0, Input.GetAxisRaw("Vertical") * Time.deltaTime);
         move = this.transform.TransformDirection(move);
         _controller.Move(move * _speed);
-        this.transform.Rotate(this.rotation);
+        transform.Rotate(rotation);
+
+        //LookWithRightStick();
+        //setZToZero();
+        //setControllerDeadzone();
 
         if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.JoystickButton5))
         {
