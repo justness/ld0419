@@ -4,11 +4,11 @@
 		<name>UnityEngine.ScreenCaptureModule</name>
 	</assembly>
 	<members>
-		<member name="T:UnityEngine.ScreenCapture">
-			<summary>Functionality to take Screenshots.</summary>
-		</member>
 		<member name="T:UnityEngine.ScreenCapture.StereoScreenCaptureMode">
 			<summary>Enumeration specifying the eye texture to capture when using ScreenCapture.CaptureScreenshot and when stereo rendering is enabled.</summary>
+		</member>
+		<member name="T:UnityEngine.ScreenCapture">
+			<summary>Functionality to take Screenshots.</summary>
 		</member>
 		<member name="M:UnityEngine.ScreenCapture.CaptureScreenshot(System.String)">
 			<summary>Captures a screenshot at path filename as a PNG file.</summary>

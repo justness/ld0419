@@ -10,17 +10,17 @@
 		<member name="T:UnityEngine.GridBrushBase.Tool">
 			<summary>Tool mode for the GridBrushBase.</summary>
 		</member>
-		<member name="P:UnityEngine.CustomGridBrushAttribute.hideAssetInstances">
-			<summary>Hide all asset instances of this brush in the tile palette window.</summary>
-		</member>
 		<member name="T:UnityEngine.GridBrushBase.FlipAxis">
 			<summary>Axis to flip tiles in the GridBrushBase by.</summary>
 		</member>
-		<member name="P:UnityEngine.CustomGridBrushAttribute.hideDefaultInstance">
-			<summary>Hide the default instance of brush in the tile palette window.</summary>
+		<member name="P:UnityEngine.CustomGridBrushAttribute.hideAssetInstances">
+			<summary>Hide all asset instances of this brush in the tile palette window.</summary>
 		</member>
 		<member name="T:UnityEngine.GridBrushBase.RotationDirection">
 			<summary>Rotate tiles in the GridBrushBase in this direction.</summary>
+		</member>
+		<member name="P:UnityEngine.CustomGridBrushAttribute.hideDefaultInstance">
+			<summary>Hide the default instance of brush in the tile palette window.</summary>
 		</member>
 		<member name="P:UnityEngine.CustomGridBrushAttribute.defaultBrush">
 			<summary>If set to true, brush will replace Unity built-in brush as the default brush in palette window.Only one class at any one time should set defaultBrush to true.</summary>
