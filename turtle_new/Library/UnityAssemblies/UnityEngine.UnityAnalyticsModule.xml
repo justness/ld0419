@@ -4,11 +4,11 @@
 		<name>UnityEngine.UnityAnalyticsModule</name>
 	</assembly>
 	<members>
-		<member name="T:UnityEngine.RemoteSettings">
-			<summary>Provides access to your remote settings.</summary>
-		</member>
 		<member name="T:UnityEngine.RemoteSettings.UpdatedEventHandler">
 			<summary>Defines the delegate signature for handling RemoteSettings.Updated events.</summary>
+		</member>
+		<member name="T:UnityEngine.RemoteSettings">
+			<summary>Provides access to your remote settings.</summary>
 		</member>
 		<member name="M:UnityEngine.RemoteSettings.ForceUpdate()">
 			<summary>Forces the game to download the newest settings from the server and update its values.</summary>

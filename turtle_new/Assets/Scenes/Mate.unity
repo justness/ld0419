@@ -297,6 +297,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 51210877}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+<<<<<<< HEAD
   m_LocalPosition: {x: 3.071, y: -0.38, z: -0.534}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -305,6 +306,100 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &152524964
+=======
+  m_LocalPosition: {x: 1.91, y: -0.38, z: -0.29}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1757925781}
+  m_Father: {fileID: 483632818}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &161997007
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 550588866}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_Name
+      value: turtle_fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd612a0d7db08a54996aecbca3ba378b, type: 3}
+--- !u!1 &483632807
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -312,14 +407,31 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 152524965}
   - component: {fileID: 152524966}
   m_Layer: 0
   m_Name: turtlefinalanimations
+=======
+  - component: {fileID: 483632818}
+  - component: {fileID: 483632817}
+  - component: {fileID: 483632816}
+  - component: {fileID: 483632815}
+  - component: {fileID: 483632814}
+  - component: {fileID: 483632813}
+  - component: {fileID: 483632812}
+  - component: {fileID: 483632811}
+  - component: {fileID: 483632810}
+  - component: {fileID: 483632809}
+  - component: {fileID: 483632808}
+  m_Layer: 0
+  m_Name: Player
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+<<<<<<< HEAD
   m_IsActive: 1
 --- !u!4 &152524965
 Transform:
@@ -340,10 +452,16 @@ Transform:
 --- !u!95 &152524966
 Animator:
   serializedVersion: 3
+=======
+  m_IsActive: 0
+--- !u!114 &483632808
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 152524964}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 6ba22ab4311c07047b9217028365a3e8, type: 3}
@@ -377,10 +495,22 @@ GameObject:
   m_IsActive: 1
 --- !u!65 &211737931
 BoxCollider:
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bfeed9102e62d4084220c50b3cc613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mate: {fileID: 0}
+--- !u!114 &483632809
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 211737930}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -390,10 +520,24 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &211737932
 MeshRenderer:
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfbbbf2375028146be4969ad4697545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mine: {fileID: 0}
+  poison: {fileID: 0}
+  explode: {fileID: 0}
+--- !u!114 &483632810
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 211737930}
   m_Enabled: 0
   m_CastShadows: 1
@@ -427,18 +571,49 @@ MeshRenderer:
   m_SortingOrder: 0
 --- !u!33 &211737933
 MeshFilter:
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 634890c7ef92fe94382232a4d31267a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controller: {fileID: 483632812}
+  _speed: 10
+  _rotationSpeed: 180
+  upAndDownSpeed: 7
+  turtleRigidbody: {fileID: 0}
+--- !u!54 &483632811
+Rigidbody:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 211737930}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &211737934
 Transform:
+=======
+  m_GameObject: {fileID: 483632807}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 1
+--- !u!143 &483632812
+CharacterController:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 211737930}
   m_LocalRotation: {x: -0.10452837, y: 0, z: 0, w: 0.9945219}
   m_LocalPosition: {x: 0, y: -4.71, z: 35.39}
@@ -449,10 +624,27 @@ Transform:
   m_LocalEulerAnglesHint: {x: -12, y: 0, z: 0}
 --- !u!1 &234628006
 GameObject:
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!81 &483632813
+AudioListener:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 234628010}
@@ -468,10 +660,17 @@ GameObject:
   m_IsActive: 1
 --- !u!64 &234628007
 MeshCollider:
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Enabled: 1
+--- !u!65 &483632814
+BoxCollider:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 234628006}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -481,12 +680,26 @@ MeshCollider:
   m_CookingOptions: 14
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &234628008
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &483632815
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 234628006}
+=======
+  m_GameObject: {fileID: 483632807}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -517,20 +730,45 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!33 &234628009
+=======
+--- !u!33 &483632816
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 234628006}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &234628010
+=======
+  m_GameObject: {fileID: 483632807}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &483632817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 483632807}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a50fa39c949e16b4dba0cfcca048678a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jelly: {fileID: 877181034}
+  bag: {fileID: 25663417}
+--- !u!4 &483632818
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 234628006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -100, z: 0}
@@ -541,6 +779,19 @@ Transform:
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &470029025
+=======
+  m_GameObject: {fileID: 483632807}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 0.8, z: 1.5}
+  m_Children:
+  - {fileID: 51210881}
+  - {fileID: 1023400125}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &550588855
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -548,16 +799,33 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 470029026}
   - component: {fileID: 470029028}
   - component: {fileID: 470029027}
   m_Layer: 5
   m_Name: HealthbarIcon
+=======
+  - component: {fileID: 550588866}
+  - component: {fileID: 550588865}
+  - component: {fileID: 550588864}
+  - component: {fileID: 550588863}
+  - component: {fileID: 550588862}
+  - component: {fileID: 550588861}
+  - component: {fileID: 550588860}
+  - component: {fileID: 550588859}
+  - component: {fileID: 550588858}
+  - component: {fileID: 550588857}
+  - component: {fileID: 550588856}
+  m_Layer: 0
+  m_Name: Player (1)
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &470029026
 RectTransform:
   m_ObjectHideFlags: 0
@@ -578,11 +846,15 @@ RectTransform:
   m_SizeDelta: {x: 15, y: 15}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &470029027
+=======
+--- !u!114 &550588856
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 470029025}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -606,18 +878,44 @@ MonoBehaviour:
     height: 1
 --- !u!222 &470029028
 CanvasRenderer:
+=======
+  m_GameObject: {fileID: 550588855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35bfeed9102e62d4084220c50b3cc613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mate: {fileID: 0}
+--- !u!114 &550588857
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 470029025}
   m_CullTransparentMesh: 0
 --- !u!1 &483632807
 GameObject:
+=======
+  m_GameObject: {fileID: 550588855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdfbbbf2375028146be4969ad4697545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mine: {fileID: 0}
+  poison: {fileID: 0}
+  explode: {fileID: 0}
+--- !u!114 &550588858
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   serializedVersion: 6
   m_Component:
   - component: {fileID: 483632818}
@@ -674,11 +972,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 634890c7ef92fe94382232a4d31267a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   _controller: {fileID: 483632812}
   _speed: 10
   _rotationSpeed: 180
@@ -689,12 +991,24 @@ MonoBehaviour:
   eulerAngY: 0
   eulerAngZ: 0
 --- !u!54 &483632811
+=======
+  _controller: {fileID: 550588860}
+  _speed: 10
+  _rotationSpeed: 180
+  upAndDownSpeed: 7
+  turtleRigidbody: {fileID: 0}
+--- !u!54 &550588859
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -704,13 +1018,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 1
+<<<<<<< HEAD
 --- !u!143 &483632812
+=======
+--- !u!143 &550588860
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 CharacterController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -722,34 +1044,56 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!81 &483632813
+=======
+--- !u!81 &550588861
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
   m_Enabled: 1
 --- !u!65 &483632814
+=======
+  m_GameObject: {fileID: 550588855}
+  m_Enabled: 1
+--- !u!65 &550588862
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!23 &483632815
+=======
+--- !u!23 &550588863
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -780,21 +1124,35 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!33 &483632816
+=======
+--- !u!33 &550588864
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!114 &483632817
+=======
+  m_GameObject: {fileID: 550588855}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &550588865
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a50fa39c949e16b4dba0cfcca048678a, type: 3}
@@ -802,18 +1160,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jelly: {fileID: 877181034}
   bag: {fileID: 25663417}
+<<<<<<< HEAD
   img: {fileID: 785893934}
 --- !u!4 &483632818
+=======
+--- !u!4 &550588866
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 483632807}
+=======
+  m_GameObject: {fileID: 550588855}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 0.8, z: 1.5}
   m_Children:
+<<<<<<< HEAD
   - {fileID: 1886890252}
   - {fileID: 51210881}
   m_Father: {fileID: 0}
@@ -999,6 +1366,11 @@ Transform:
   - {fileID: 684178757}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+=======
+  - {fileID: 1950518714}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &683613469
 GameObject:
@@ -1091,7 +1463,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+<<<<<<< HEAD
 --- !u!1 &684178756
+=======
+--- !u!1 &877181034
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1099,17 +1475,27 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 684178757}
   - component: {fileID: 684178760}
   - component: {fileID: 684178759}
   - component: {fileID: 684178758}
   m_Layer: 0
   m_Name: wall2 (1)
+=======
+  - component: {fileID: 877181038}
+  - component: {fileID: 877181037}
+  - component: {fileID: 877181036}
+  - component: {fileID: 877181035}
+  m_Layer: 0
+  m_Name: Jellyfish
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &684178757
 Transform:
   m_ObjectHideFlags: 0
@@ -1126,10 +1512,15 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 90}
 --- !u!65 &684178758
 BoxCollider:
+=======
+--- !u!136 &877181035
+CapsuleCollider:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 684178756}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -1138,13 +1529,29 @@ BoxCollider:
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &684178759
+=======
+  m_GameObject: {fileID: 877181034}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &877181036
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 684178756}
   m_Enabled: 0
+=======
+  m_GameObject: {fileID: 877181034}
+  m_Enabled: 1
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1174,19 +1581,44 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+<<<<<<< HEAD
 --- !u!33 &684178760
+=======
+--- !u!33 &877181037
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 684178756}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &726560816
+=======
+  m_GameObject: {fileID: 877181034}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &877181038
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877181034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1023400124
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 234628010}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 6d02ff4af4468e143a725194d0e177cf,
@@ -1195,25 +1627,48 @@ PrefabInstance:
       value: sand_m
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
+=======
+    m_TransformParent: {fileID: 483632818}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_Name
+      value: turtle_fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
         type: 3}
       propertyPath: m_LocalRotation.y
@@ -1235,20 +1690,53 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 6d02ff4af4468e143a725194d0e177cf,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6d02ff4af4468e143a725194d0e177cf, type: 3}
 --- !u!4 &726560817 stripped
@@ -1258,6 +1746,32 @@ Transform:
   m_PrefabInstance: {fileID: 726560816}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &736401672
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.01
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd612a0d7db08a54996aecbca3ba378b, type: 3}
+--- !u!4 &1023400125 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1023400124}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1286779705
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1265,6 +1779,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 736401673}
   - component: {fileID: 736401676}
   - component: {fileID: 736401675}
@@ -1272,16 +1787,33 @@ GameObject:
   m_Layer: 0
   m_Name: shell
   m_TagString: Untagged
+=======
+  - component: {fileID: 1286779711}
+  - component: {fileID: 1286779709}
+  - component: {fileID: 1286779710}
+  - component: {fileID: 1286779708}
+  - component: {fileID: 1286779707}
+  - component: {fileID: 1286779706}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!4 &736401673
 Transform:
+=======
+--- !u!114 &1286779706
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 736401672}
   m_LocalRotation: {x: -0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 10.7, y: 1, z: -1.8}
@@ -1292,10 +1824,30 @@ Transform:
   m_LocalEulerAnglesHint: {x: 180, y: 270, z: 90}
 --- !u!1773428102 &736401674
 ParentConstraint:
+=======
+  m_GameObject: {fileID: 1286779705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf007f35f72af542b040cb39c091add, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 550588855}
+--- !u!81 &1286779707
+AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1286779705}
+  m_Enabled: 0
+--- !u!20 &1286779708
+Camera:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 736401672}
   m_Enabled: 1
   m_Weight: 1
@@ -1318,10 +1870,52 @@ ParentConstraint:
     weight: 1
 --- !u!23 &736401675
 MeshRenderer:
+=======
+  m_GameObject: {fileID: 1286779705}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &1286779709
+MonoBehaviour:
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 736401672}
   m_Enabled: 1
   m_CastShadows: 1
@@ -1399,11 +1993,22 @@ RectTransform:
   m_SizeDelta: {x: 50, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &785893934
+=======
+  m_GameObject: {fileID: 1286779705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f34a6de952395d43b2dae9543fb7390, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jelly: {fileID: 877181034}
+--- !u!114 &1286779710
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 785893932}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1603,11 +2208,22 @@ MeshFilter:
   m_GameObject: {fileID: 877181034}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &877181038
+=======
+  m_GameObject: {fileID: 1286779705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e26856b64bab26479d7c919d3d2f028, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  plastic: {fileID: 25663417}
+--- !u!4 &1286779711
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 877181034}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 4}
@@ -1648,10 +2264,22 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1123181759
+=======
+  m_GameObject: {fileID: 1286779705}
+  m_LocalRotation: {x: 0.52249867, y: 0, z: 0, w: 0.85264015}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 117, y: 180, z: 180}
+--- !u!1001 &1757925780
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 877181038}
     m_Modifications:
     - target: {fileID: -927199367670048503, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
@@ -1675,10 +2303,36 @@ PrefabInstance:
       value: -0.00959323
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
+=======
+    m_TransformParent: {fileID: 51210881}
+    m_Modifications:
+    - target: {fileID: -927199367670048503, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_Name
+      value: turtle_fbx
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
         type: 3}
       propertyPath: m_LocalRotation.y
@@ -1695,25 +2349,57 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     - target: {fileID: -4216859302048453862, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 9fa1ee44c8e23354dbbbb06d3f703926,
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9fa1ee44c8e23354dbbbb06d3f703926, type: 3}
 --- !u!4 &1123181760 stripped
@@ -2995,3 +3681,34 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2080448688}
   m_CullTransparentMesh: 0
+=======
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cd612a0d7db08a54996aecbca3ba378b, type: 3}
+--- !u!4 &1757925781 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1757925780}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1950518714 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -4216859302048453862, guid: cd612a0d7db08a54996aecbca3ba378b,
+    type: 3}
+  m_PrefabInstance: {fileID: 161997007}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419

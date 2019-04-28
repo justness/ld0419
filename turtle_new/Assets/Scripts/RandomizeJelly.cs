@@ -6,13 +6,11 @@ public class RandomizeJelly : MonoBehaviour
 {
 
     public GameObject jelly;
-    public int min;
-    public int max;
 
     void Start()
     {
         jelly = GameObject.Find("Jellyfish");
-        int rand = Random.Range(min, max);
+        int rand = Random.Range(30, 40);
         int i = 0;
         while (i <= rand)
         {

@@ -25,7 +25,11 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 394}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
+<<<<<<< HEAD
   controlID: 84
+=======
+  controlID: 3151
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -49,8 +53,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340
     y: 72
+<<<<<<< HEAD
     width: 809
     height: 545
+=======
+    width: 811
+    height: 523
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 1
@@ -63,10 +72,17 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
     m_HBaseRangeMin: -404.5
     m_HBaseRangeMax: 404.5
     m_VBaseRangeMin: -264
     m_VBaseRangeMax: 264
+=======
+    m_HBaseRangeMin: -405.5
+    m_HBaseRangeMax: 405.5
+    m_VBaseRangeMin: -253
+    m_VBaseRangeMax: 253
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -84,25 +100,43 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
+<<<<<<< HEAD
       width: 809
       height: 528
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 404.5, y: 264}
+=======
+      width: 811
+      height: 506
+    m_Scale: {x: 1, y: 1}
+    m_Translation: {x: 405.5, y: 253}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -404.5
       y: -264
       width: 809
       height: 528
+=======
+      x: -405.5
+      y: -253
+      width: 811
+      height: 506
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
+<<<<<<< HEAD
   m_LastWindowPixelSize: {x: 1618, y: 1090}
+=======
+  m_LastWindowPixelSize: {x: 1622, y: 1046}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000100
@@ -164,7 +198,11 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
+<<<<<<< HEAD
       m_ExpandedIDs: 5ef8ffff8efbffff322e0000ac2e0000
+=======
+      m_ExpandedIDs: 8efbffff
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -207,12 +245,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340
     y: 0
+<<<<<<< HEAD
     width: 811
+=======
+    width: 813
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     height: 948
   m_MinSize: {x: 234, y: 394}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
+<<<<<<< HEAD
   controlID: 64
+=======
+  controlID: 3152
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -230,10 +276,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 811
     height: 564
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    width: 813
+    height: 542
+  m_MinSize: {x: 104, y: 122}
+  m_MaxSize: {x: 4004, y: 4022}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 7}
@@ -265,8 +318,13 @@ MonoBehaviour:
     serializedVersion: 2
     x: 340
     y: 72
+<<<<<<< HEAD
     width: 809
     height: 545
+=======
+    width: 811
+    height: 523
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 994676c8ad25ab34784828badad6bad4
@@ -278,9 +336,15 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 12.284561, y: -12.317011, z: -5.1829166}
     speed: 2
     m_Value: {x: 12.284561, y: -12.317011, z: -5.1829166}
+=======
+    m_Target: {x: 2.7722073, y: -4.500799, z: 2.490969}
+    speed: 2
+    m_Value: {x: 2.7722073, y: -4.500799, z: 2.490969}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -309,6 +373,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.20016079, y: 0.76825917, z: -0.28682053, w: 0.5361544}
     speed: 2
     m_Value: {x: 0.20015939, y: 0.76825374, z: -0.2868185, w: 0.53615063}
@@ -316,6 +381,15 @@ MonoBehaviour:
     m_Target: 21.88196
     speed: 2
     m_Value: 21.88196
+=======
+    m_Target: {x: -0.15374207, y: 0.78237027, z: -0.21300162, w: -0.5647049}
+    speed: 2
+    m_Value: {x: -0.15374199, y: 0.7823698, z: -0.21300149, w: -0.56470454}
+  m_Size:
+    m_Target: 37.540394
+    speed: 2
+    m_Value: 37.540394
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -361,6 +435,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 339
     y: 72
     width: 811
@@ -370,6 +445,16 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 4151984105735853163, guid: 5c7e3358ca68359418770b839d11fdeb, type: 2}
     - {fileID: -3077498455240736603, guid: cda55a2dff557a2439050008939000ec, type: 2}
+=======
+    x: 202
+    y: 72
+    width: 885
+    height: 342
+  m_ViewDataDictionary: {fileID: 0}
+  m_ViewTransforms:
+    m_KeySerializationHelper:
+    - {fileID: 1102940571075751016, guid: 3403cea1a0a069f4c89136cf3c2ce831, type: 2}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_ValueSerializationHelper:
     - e00: 1
       e01: 0
@@ -387,6 +472,7 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
+<<<<<<< HEAD
     - e00: 1
       e01: 0
       e02: 0
@@ -408,6 +494,16 @@ MonoBehaviour:
     type: 2}
   m_BreadCrumbs:
   - m_Target: {fileID: -3077498455240736603, guid: cda55a2dff557a2439050008939000ec,
+=======
+  m_PreviewAnimator: {fileID: 0}
+  m_AnimatorController: {fileID: 9100000, guid: 3403cea1a0a069f4c89136cf3c2ce831,
+    type: 2}
+  m_BreadCrumbs:
+  - m_Target: {fileID: 1107923100125859534, guid: 3403cea1a0a069f4c89136cf3c2ce831,
+      type: 2}
+    m_ScrollPosition: {x: 0, y: 0}
+  - m_Target: {fileID: 1102940571075751016, guid: 3403cea1a0a069f4c89136cf3c2ce831,
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
       type: 2}
     m_ScrollPosition: {x: 0, y: 0}
   stateMachineGraph: {fileID: 0}
@@ -463,11 +559,19 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
     y: 564
     width: 811
     height: 384
   m_MinSize: {x: 230, y: 250}
   m_MaxSize: {x: 10000, y: 10000}
+=======
+    y: 542
+    width: 813
+    height: 406
+  m_MinSize: {x: 234, y: 272}
+  m_MaxSize: {x: 10004, y: 10022}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ActualView: {fileID: 11}
   m_Panes:
   - {fileID: 11}
@@ -496,9 +600,15 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 340
+<<<<<<< HEAD
     y: 636
     width: 809
     height: 365
+=======
+    y: 614
+    width: 811
+    height: 387
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -512,20 +622,35 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: 16
+=======
+    - Assets/Scripts
+  m_ViewMode: 1
+  m_StartGridSize: 64
+  m_LastFolders:
+  - Assets/Scripts
+  m_LastFoldersGridSize: -1
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_LastProjectPath: C:\Users\thoma\OneDrive\Winter 2019\Turtle\ld0419\turtle_new
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
+<<<<<<< HEAD
     m_SelectedIDs: d42c0000
     m_LastClickedID: 11476
     m_ExpandedIDs: 000000008a290000a02b000000ca9a3b
+=======
+    m_SelectedIDs: 022b0000
+    m_LastClickedID: 11010
+    m_ExpandedIDs: 0000000078290000a62c000000ca9a3b
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -553,7 +678,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 000000008a290000a02b0000
+=======
+    m_ExpandedIDs: 0000000078290000a62c000000ca9a3b
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -578,10 +707,17 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: c2290000
     m_LastClickedInstanceID: 10690
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 4a310000b82b000000000000622b0000662b0000
+=======
+    m_SelectedInstanceIDs: b0260000
+    m_LastClickedInstanceID: 9904
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: 4a310000b82b000000000000
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -606,7 +742,11 @@ MonoBehaviour:
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
     m_ScrollPosition: {x: 0, y: 0}
+<<<<<<< HEAD
     m_GridSize: 16
+=======
+    m_GridSize: 64
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_DirectoriesAreaWidth: 110
 --- !u!114 &12
 MonoBehaviour:
@@ -629,7 +769,11 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 339
+=======
+    x: 340
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     y: 614
     width: 811
     height: 387
@@ -649,12 +793,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1151
     y: 0
     width: 469
     height: 948
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
+=======
+    x: 1153
+    y: 0
+    width: 467
+    height: 948
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -681,9 +834,15 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: 1151
     y: 72
     width: 467
+=======
+    x: 1153
+    y: 72
+    width: 465
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     height: 929
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0

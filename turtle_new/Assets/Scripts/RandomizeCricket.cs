@@ -6,13 +6,11 @@ public class RandomizeCricket : MonoBehaviour
 {
 
     public GameObject crick;
-    public int min;
-    public int max;
 
     void Start()
     {
         crick = GameObject.Find("CricketPatch");
-        int rand = Random.Range(min, max);
+        int rand = Random.Range(20, 25);
         int i = 0;
         while (i <= rand)
         {

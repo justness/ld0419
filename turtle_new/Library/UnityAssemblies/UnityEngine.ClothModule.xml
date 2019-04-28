@@ -22,12 +22,21 @@
 		<member name="P:UnityEngine.Cloth.normals">
 			<summary>The current normals of the cloth object.</summary>
 		</member>
+<<<<<<< HEAD
 		<member name="T:UnityEngine.ClothSkinningCoefficient">
 			<summary>The ClothSkinningCoefficient struct is used to set up how a Cloth component is allowed to move with respect to the SkinnedMeshRenderer it is attached to.</summary>
 		</member>
 		<member name="P:UnityEngine.Cloth.coefficients">
 			<summary>The cloth skinning coefficients used to set up how the cloth interacts with the skinned mesh.</summary>
 		</member>
+=======
+		<member name="P:UnityEngine.Cloth.coefficients">
+			<summary>The cloth skinning coefficients used to set up how the cloth interacts with the skinned mesh.</summary>
+		</member>
+		<member name="T:UnityEngine.ClothSkinningCoefficient">
+			<summary>The ClothSkinningCoefficient struct is used to set up how a Cloth component is allowed to move with respect to the SkinnedMeshRenderer it is attached to.</summary>
+		</member>
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 		<member name="P:UnityEngine.Cloth.capsuleColliders">
 			<summary>An array of CapsuleColliders which this Cloth instance should collide with.</summary>
 		</member>
@@ -37,12 +46,21 @@
 		<member name="P:UnityEngine.Cloth.sphereColliders">
 			<summary>An array of ClothSphereColliderPairs which this Cloth instance should collide with.</summary>
 		</member>
+<<<<<<< HEAD
 		<member name="F:UnityEngine.ClothSkinningCoefficient.collisionSphereDistance">
 			<summary>Definition of a sphere a vertex is not allowed to enter. This allows collision against the animated cloth.</summary>
 		</member>
 		<member name="P:UnityEngine.Cloth.sleepThreshold">
 			<summary>Cloth's sleep threshold.</summary>
 		</member>
+=======
+		<member name="P:UnityEngine.Cloth.sleepThreshold">
+			<summary>Cloth's sleep threshold.</summary>
+		</member>
+		<member name="F:UnityEngine.ClothSkinningCoefficient.collisionSphereDistance">
+			<summary>Definition of a sphere a vertex is not allowed to enter. This allows collision against the animated cloth.</summary>
+		</member>
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 		<member name="P:UnityEngine.Cloth.bendingStiffness">
 			<summary>Bending stiffness of the cloth.</summary>
 		</member>

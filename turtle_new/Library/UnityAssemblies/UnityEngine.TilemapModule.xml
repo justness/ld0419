@@ -7,35 +7,64 @@
 		<member name="T:UnityEngine.CustomGridBrushAttribute">
 			<summary>Attribute to define the class as a grid brush and to make it available in the palette window.</summary>
 		</member>
+<<<<<<< HEAD
 		<member name="P:UnityEngine.CustomGridBrushAttribute.hideAssetInstances">
 			<summary>Hide all asset instances of this brush in the tile palette window.</summary>
 		</member>
 		<member name="P:UnityEngine.CustomGridBrushAttribute.hideDefaultInstance">
 			<summary>Hide the default instance of brush in the tile palette window.</summary>
+=======
+		<member name="T:UnityEngine.GridBrushBase.RotationDirection">
+			<summary>Rotate tiles in the GridBrushBase in this direction.</summary>
+		</member>
+		<member name="T:UnityEngine.GridBrushBase.Tool">
+			<summary>Tool mode for the GridBrushBase.</summary>
+		</member>
+		<member name="P:UnityEngine.CustomGridBrushAttribute.hideAssetInstances">
+			<summary>Hide all asset instances of this brush in the tile palette window.</summary>
+		</member>
+		<member name="T:UnityEngine.GridBrushBase.FlipAxis">
+			<summary>Axis to flip tiles in the GridBrushBase by.</summary>
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 		</member>
 		<member name="T:UnityEngine.GridBrushBase">
 			<summary>Base class for authoring data on a grid with grid painting tools like paint, erase, pick, select and fill.</summary>
 		</member>
+<<<<<<< HEAD
 		<member name="T:UnityEngine.GridBrushBase.RotationDirection">
 			<summary>Rotate tiles in the GridBrushBase in this direction.</summary>
 		</member>
 		<member name="P:UnityEngine.CustomGridBrushAttribute.defaultBrush">
 			<summary>If set to true, brush will replace Unity built-in brush as the default brush in palette window.Only one class at any one time should set defaultBrush to true.</summary>
+=======
+		<member name="P:UnityEngine.CustomGridBrushAttribute.hideDefaultInstance">
+			<summary>Hide the default instance of brush in the tile palette window.</summary>
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 		</member>
 		<member name="M:UnityEngine.GridBrushBase.Paint(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int)">
 			<summary>Paints data into a grid within the given bounds.</summary>
 		</member>
+<<<<<<< HEAD
 		<member name="T:UnityEngine.GridBrushBase.FlipAxis">
 			<summary>Axis to flip tiles in the GridBrushBase by.</summary>
 		</member>
 		<member name="P:UnityEngine.CustomGridBrushAttribute.defaultName">
 			<summary>Name of the default instance of this brush.</summary>
+=======
+		<member name="P:UnityEngine.CustomGridBrushAttribute.defaultBrush">
+			<summary>If set to true, brush will replace Unity built-in brush as the default brush in palette window.Only one class at any one time should set defaultBrush to true.</summary>
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 		</member>
 		<member name="M:UnityEngine.GridBrushBase.Erase(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.Vector3Int)">
 			<summary>Erases data on a grid within the given bounds.</summary>
 		</member>
+<<<<<<< HEAD
 		<member name="T:UnityEngine.GridBrushBase.Tool">
 			<summary>Tool mode for the GridBrushBase.</summary>
+=======
+		<member name="P:UnityEngine.CustomGridBrushAttribute.defaultName">
+			<summary>Name of the default instance of this brush.</summary>
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 		</member>
 		<member name="M:UnityEngine.GridBrushBase.BoxFill(UnityEngine.GridLayout,UnityEngine.GameObject,UnityEngine.BoundsInt)">
 			<summary>Box fills tiles and GameObjects into given bounds within the selected layers.</summary>

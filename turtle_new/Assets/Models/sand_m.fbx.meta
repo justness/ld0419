@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 6d02ff4af4468e143a725194d0e177cf
+=======
+guid: 4288f27f55bef7245ab5ff74ae382324
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 ModelImporter:
   serializedVersion: 25
   internalIDToNameTable: []
@@ -8,7 +12,11 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: sand_m
+<<<<<<< HEAD
     second: {fileID: 2100000, guid: 50a370b657f83474e96d1365e5e06424, type: 2}
+=======
+    second: {fileID: 2100000, guid: 79453e70da94cef4b8cefcb69dd5b0df, type: 2}
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
   materials:
     importMaterials: 1
     materialName: 0
@@ -39,6 +47,7 @@ ModelImporter:
     isReadable: 0
   meshes:
     lODScreenPercentages: []
+<<<<<<< HEAD
     globalScale: 2
     meshCompression: 0
     addColliders: 0
@@ -47,6 +56,16 @@ ModelImporter:
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+=======
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -85,7 +104,11 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+<<<<<<< HEAD
     globalScale: 2
+=======
+    globalScale: 1
+>>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

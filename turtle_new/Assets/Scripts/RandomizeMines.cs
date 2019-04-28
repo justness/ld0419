@@ -1,5 +1,4 @@
-﻿
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -7,13 +6,11 @@ public class RandomizeMines : MonoBehaviour
 {
 
     public GameObject mine;
-    public int min;
-    public int max;
 
     void Start()
     {
         mine = GameObject.Find("Mine");
-        int rand = Random.Range(min,max);
+        int rand = Random.Range(30,40);
         int i = 0;
         while (i <= rand)
         {
