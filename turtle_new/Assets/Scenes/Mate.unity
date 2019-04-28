@@ -441,6 +441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: {fileID: 0}
   poison: {fileID: 0}
+  explode: {fileID: 0}
 --- !u!114 &483632810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -641,6 +642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mine: {fileID: 0}
   poison: {fileID: 0}
+  explode: {fileID: 0}
 --- !u!114 &550588858
 MonoBehaviour:
   m_ObjectHideFlags: 0
