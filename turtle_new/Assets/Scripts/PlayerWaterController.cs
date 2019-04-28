@@ -147,7 +147,7 @@ public class PlayerWaterController : MonoBehaviour
         Debug.Log(rSHorizontal);
         Debug.Log(_rotationSpeed);
         //transform.Rotate(rotation);
-        transform.localEulerAngles += new Vector3(rSVertical * 20, rSHorizontal * 180, 0f);
+        transform.localEulerAngles += new Vector3(rSVertical * -20, rSHorizontal * 115, 0f);
 
         //LookWithRightStick();
         //setZToZero();

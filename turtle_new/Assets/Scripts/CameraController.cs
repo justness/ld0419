@@ -19,6 +19,8 @@ public class CameraController : MonoBehaviour
         transform.position = player.transform.position + offset;
         transform.rotation = player.transform.rotation * rotOffset;
 
+
+
         /*// Camera Movement //an example script to play with, I didn't make this one
         Vector3 movement = CameraGoalPosition - transform.position;
         movement = movement / MovementDividor;
