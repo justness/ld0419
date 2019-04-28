@@ -8,11 +8,13 @@ public class MineTrigger : MonoBehaviour
 
     public GameObject mine;
     public GameObject poison;
+    public AudioSource aud;
 
     void Start()
     {
         mine = GameObject.Find("Mine");
         poison = GameObject.Find("Poison");
+        aud = mine.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -33,6 +35,7 @@ public class MineTrigger : MonoBehaviour
         if (col.gameObject == mine)
         {
             StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
+            aud.Play();
         }
         if (col.gameObject == poison)
         {
