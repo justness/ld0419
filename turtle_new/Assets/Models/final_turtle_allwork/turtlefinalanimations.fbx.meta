@@ -17,12 +17,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: shell_m
-    second: {fileID: 2100000, guid: 2c129abc1851cad43aa3876d6b7dde61, type: 2}
+    second: {fileID: 2100000, guid: 46aefc62280aeca4aaaeeba964c43243, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: turtle_m
-    second: {fileID: 2100000, guid: fad787ff51a199d4c938fb4e9c1e858b, type: 2}
+    second: {fileID: 2100000, guid: ec5f09015bfe63247876eb0e409a2c5e, type: 2}
   materials:
     importMaterials: 1
     materialName: 0

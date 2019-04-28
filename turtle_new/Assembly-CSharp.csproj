@@ -62,8 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BeachTrigger.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\DeathRestart.cs" />
+    <Compile Include="Assets\Scripts\EggText.cs" />
     <Compile Include="Assets\Scripts\JellyBagTrigger.cs" />
+    <Compile Include="Assets\Scripts\LifebarVisual.cs" />
     <Compile Include="Assets\Scripts\MateTrigger.cs" />
     <Compile Include="Assets\Scripts\MineTrigger.cs" />
     <Compile Include="Assets\Scripts\OceanTrigger.cs" />
@@ -74,6 +78,7 @@
     <Compile Include="Assets\Scripts\RandomizeJelly.cs" />
     <Compile Include="Assets\Scripts\RandomizeMines.cs" />
     <Compile Include="Assets\Scripts\RandomizePlastic.cs" />
+    <Compile Include="Assets\Scripts\ReprodFood.cs" />
     <Compile Include="Assets\Scripts\RotationOfModel.cs" />
     <Compile Include="Assets\Scripts\StaticStats.cs" />
     <Reference Include="Unity.Timeline.Editor">
