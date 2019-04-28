@@ -60,7 +60,7 @@ public class PlayerWaterController : MonoBehaviour
         _controller.Move(move * _speed);
         this.transform.Rotate(this.rotation);
 
-        if (Input.GetKey(KeyCode.Space)/* && Input.GetKey(KeyCode.W)*/)
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.JoystickButton5))
         {
             goUpAndDown(1);
             //move.y = 1000; //this didn't work
@@ -72,7 +72,7 @@ public class PlayerWaterController : MonoBehaviour
 
         }
 
-        if (Input.GetKey(KeyCode.C))
+        if (Input.GetKey(KeyCode.C) || Input.GetKey(KeyCode.JoystickButton4))
         {
             goUpAndDown(-1);
             //move.y = 1000; //this didn't work
