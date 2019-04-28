@@ -2,34 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-<<<<<<< HEAD
 using UnityEngine.UI;
-=======
->>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 
 public class MineTrigger : MonoBehaviour
 {
 
     public GameObject mine;
     public GameObject poison;
-<<<<<<< HEAD
     public AudioSource aud;
     public RawImage img;
-=======
-    public AudioSource explode;
->>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
 
     void Start()
     {
         mine = GameObject.Find("Mine");
-<<<<<<< HEAD
         poison = mine.gameObject.transform.GetChild(0).gameObject;
         aud = mine.GetComponent<AudioSource>();
         img.enabled = false;
-=======
-        poison = GameObject.Find("Poison");
-        explode = mine.GetComponent<AudioSource>();
->>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
     }
 
     void Update()
@@ -47,7 +35,6 @@ public class MineTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider col)
     {
-<<<<<<< HEAD
         if (col.gameObject == poison)
         {
             img.enabled = true;
@@ -58,16 +45,6 @@ public class MineTrigger : MonoBehaviour
         {
             StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
             aud.Play();
-=======
-        if (col.gameObject == mine)
-        {
-            StaticStats.setLife(StaticStats.getLife() - 10);        //Boom.
-            explode.Play();
-        }
-        if (col.gameObject == poison)
-        {
-            StaticStats.setPois(true);      //Sets poison to true when colliding.
->>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         }
     }
 
@@ -76,10 +53,7 @@ public class MineTrigger : MonoBehaviour
         if (col.gameObject == poison)       //Disables poison when too far.
         {
             StaticStats.setPois(false);
-<<<<<<< HEAD
             img.enabled = false;
-=======
->>>>>>> parent of 53e63ac... Merge branch 'master' of https://github.com/justness/ld0419
         }
     }
 }
