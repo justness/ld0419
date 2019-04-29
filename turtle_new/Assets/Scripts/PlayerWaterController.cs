@@ -124,17 +124,28 @@ public class PlayerWaterController : MonoBehaviour
         }
     }
 
-    public double boundAngleX(double angleX)
+    public double boundAngleX(double angleX, float rSVertical)
     {
-        if (angleX > 25 && angleX < 50) {
+        /*if (angleX > 25 && angleX < 50) {
             //angleX = 25;
-            transform.localEulerAngles += new Vector3(-3, 0f, 0f);
+            transform.localEulerAngles += new Vector3(-1, 0f, 0f);
         }
         if (angleX < 340 && angleX > 290) {
             //angleX = -25;
-            transform.localEulerAngles += new Vector3(3, 0f, 0f);
+            transform.localEulerAngles += new Vector3(1, 0f, 0f);
+        }*/
+        angleX = angleX;
+        Debug.Log("angleX is: " + angleX);
+        if (angleX < 355 && angleX > 270 && rSVertical == 0)
+        {
+            transform.localEulerAngles += new Vector3(1, 0f, 0f);
         }
-        return angleX;
+        if (angleX > 5 && angleX < 90 && rSVertical == 0)
+        {
+            transform.localEulerAngles += new Vector3(-1, 0f, 0f);
+        }
+
+                        return angleX;
     }
 
     public void FixedUpdate()
@@ -180,7 +191,7 @@ public class PlayerWaterController : MonoBehaviour
         eulerAngY = transform.localEulerAngles.y;
         eulerAngZ = transform.localEulerAngles.z;
 
-        boundAngleX(eulerAngX);
+        boundAngleX(eulerAngXUnwrapped, rSVertical);
 
    
 

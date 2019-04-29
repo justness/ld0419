@@ -23,7 +23,7 @@
         }
         if (air <= 0)
         {
-            life = 0;
+            //life = 0;
         }
         return air;
     }
