@@ -8,7 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: bag_m
-    second: {fileID: 2100000, guid: f36e59297d4067448bd6ed2310a2356f, type: 2}
+    second: {fileID: 2100000, guid: e382ef0ca40e5244e991fd55585e079b, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -43,10 +43,10 @@ ModelImporter:
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
-    importVisibility: 0
+    importVisibility: 1
     importBlendShapes: 1
-    importCameras: 0
-    importLights: 0
+    importCameras: 1
+    importLights: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
